@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row justify-between items-center mx-12">
         <div>
           <h1 className="text-5xl font-semibold text-gray-700">
-            Our site <br /> is currently under development.
+            Our Website <br /> is currently under development.
           </h1>
 
           {/* Subscribe form */}
