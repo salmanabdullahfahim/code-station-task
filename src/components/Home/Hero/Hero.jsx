@@ -8,12 +8,12 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row justify-between items-center mx-12">
         <div>
           <h1 className="text-5xl font-semibold text-gray-700">
-            Our Website <br /> is currently under development.
+            Our website <br /> is currently under development.
           </h1>
 
           {/* Subscribe form */}
           <div className="pt-8">
-            <p className="py-1">
+            <p className="py-1 font-semibold text-neutral-600">
               Please subscribe here. We will notify you when our website is
               live!
             </p>
@@ -26,7 +26,7 @@ const Hero = () => {
               ></input>
               <button
                 type="button"
-                className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className="rounded-md bg-[#f26651] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#eb8279] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
               >
                 Subscribe
               </button>
